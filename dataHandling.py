@@ -40,5 +40,3 @@ train_labels = train_data['Survived']
 test_features = test_data[features]
 dvec=DictVectorizer(sparse=False)
 train_features=dvec.fit_transform(train_features.to_dict(orient='record'))
-
-

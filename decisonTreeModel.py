@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.tree import DecisionTreeClassifier
 
-# 数据加载
+# csv数据加载
 train_data=pd.read_csv("/Users/zhouya/Documents/code/Titanic_Data/train.csv")
 test_data=pd.read_csv("/Users/zhouya/Documents/code/Titanic_Data/test.csv")
 # 数据清洗
